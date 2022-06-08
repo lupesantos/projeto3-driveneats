@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+body {
+    width: 414px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa; ;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding-left: 10px;
+    width: 414px;
+    height: 92px;
+    color:#ffffff ;
+    background-color:#CF2B2B ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    filter: drop-shadow(0px 4px 4px rgba(68,68,68,0.6));
+}
+
+h3{
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+}
+h2{
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+    font-weight: 400;
+    color: #333333;
+}
+h1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+}
+p{
+    font-size: 18px;
+    font-weight: 300;
+}
+img{
+    width: 100%;
+    display: block;
+    width: 144px;
+    height: 87px;
+}
+.main{
+    width: 414px;
+    background-color: #E5E5E5;
+    margin-top: 92px;
+    padding-bottom: 112px;
+}
+
+.main__section__holder{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.main__section__holder-anuncios{
+    margin-top: 10px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.main__section__holder-anunciobox{
+    margin-right: 20px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 172px;
+    height: 216px;
+    border-radius: 9px;
+    filter: drop-shadow(0px 0px 2px  rgba(0, 0, 0, 0.2));
+}
+
+.main__section__holder-anunciobox p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #A6A6A6;
+}
+
+.main__section__holder-anunciobox :nth-child(4){
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #000000;
+}
+
+.header2{
+    padding-left: 10px;
+    width: 414px;
+    height: 92px;
+    color:#ffffff ;
+    background-color:#ffffff ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+}
+
+.header2 div{
+    width: 364px;
+    background-color:#cbcbcb;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+
+
