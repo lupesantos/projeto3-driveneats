@@ -10,7 +10,9 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
+
 
 header{
     padding-left: 10px;
@@ -82,6 +84,33 @@ img{
     filter: drop-shadow(0px 0px 2px  rgba(0, 0, 0, 0.2));
 }
 
+.borda{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    padding: 9px;
+    width: 172px;
+    height: 216px;
+    border: 5px solid #32B72F;
+    border-radius: 9px;
+}
+
+.main__section__holder-anunciobox ion-icon{
+    display: none;
+
+}
+
+.borda ion-icon{
+    display: block;
+    color:#32B72F;
+    font-size: 20px;
+    position:absolute;
+    bottom: 10px;
+    z-index: 3;
+    right: 10px;
+
+}
+
 .main__section__holder-anunciobox p{
     font-size: 15px;
     font-weight: 300;
@@ -96,7 +125,6 @@ img{
 }
 
 .header2{
-    padding-left: 10px;
     width: 414px;
     height: 92px;
     color:#ffffff ;
@@ -110,7 +138,8 @@ img{
     z-index: 3;
 }
 
-.header2 div{
+.botaoCinza{
+    text-align: center;
     width: 364px;
     background-color:#cbcbcb;
     height: 61px;
@@ -120,5 +149,83 @@ img{
     border-radius: 50px;
 }
 
+.header2 p{
+    width: 180px;
+    
+}
 
+
+.fecharpedido {
+    background-color:#32B72F;
+}
+
+.resumopedido {
+    width: 414px;
+    height: 100%;
+    background-color: rgba(255,255,255,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resumopedido-box{
+    padding: 10px 0;
+    color: white;
+    width: 377px;
+    height: 353px;
+    background-color: #50D074;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.resumopedido-box h3{
+    font-family: roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.78px;
+}
+.resumopedido-box p{
+    font-family: roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.78px;
+}
+
+.escondido{
+    display: none;
+}
+
+.tudocerto{
+    color: #50D074;
+    display: inline-flex;
+    width: 329px;
+    height: 52px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.tudocerto a{
+    color:#50D074;
+}
+
+.linhacomida, .linhabebida, .linhasobremesa, .Total{
+    padding: 0 24px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Total span{
+    font-size: 22px;
+    font-weight: 700;
+}
 
